@@ -28,4 +28,4 @@ for file in allfiles:
             md5str = m.hexdigest()
             ip = socket.gethostbyname(socket.gethostname())
             logger.addHandler(fh)
-            logger.info('#XMDT#{path=' + file + ' md5=' + md5str + ' ip=' + ip + '}#XMDT#' + ' ' + line)
+            logger.info('#XXXX#{path=' + file + ' md5=' + md5str + ' ip=' + ip + '}#XXXX#' + ' ' + line)
